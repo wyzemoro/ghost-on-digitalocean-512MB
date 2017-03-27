@@ -1,3 +1,4 @@
+__ as of 3-27-2017 the latest version alpha.17 is broken __
 # ghost-on-digitalocean-512MB
 After hours of pouring through dozens of tutorials learning how to install Ghost and the recommended packages &amp; software, I gathered together all of the command lines into this tutorial so the next time this process will be a LOT easier. 
 
