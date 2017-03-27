@@ -8,7 +8,7 @@ After hours of pouring through dozens of tutorials learning how to install Ghost
 	<style>h2,h3,h4,h5{margin:1em 0 0;padding:0;}</style>
 </head>
 <body style="padding:2em 6em;  word-wrap: break-word;">
-	<h1>Install Ghost 1.0+ on DigitalOcean 512 MB droplet</h1>
+# Install Ghost 1.0+ on DigitalOcean 512 MB droplet 
 <blockquote style="font-family: monospace;">
 Build a clonable Ghost server platform on a DigitalOcean 512 MB droplet with Ubuntu, MariaDB, Nginx, all the apps needed to run Ghost, unattended server upgrades, and daily automatic snapshots. Make a snapshot to clone present and future Ghost sites. Then install SSL encrypted Ghost and connect it to KeyCDN, MailChimp, Disqus, Google Analytics, and Google Custom Search. The whole process takes about a half-hour from zero to speedy, secure Ghost blog that backs itself up and keeps the server up to date.
 </blockquote>
@@ -18,18 +18,18 @@ Open generic-ghost-commands.html in a text editor and perform a find and replace
 Save and reopen in a browser. All commands will be populated with your data for easy copy/paste. 
 (You may need to modify tabs and spacing to make the page format correctly for your browser.)
 
-	Domain: 				yourweb.com
+	Domain: 			yourweb.com
 	Domain base: 			yourweb
 	Server IP (floating): 		123.123.123.123
 	UNIX root password:   		unix-rootpassword
-	DB root password: 			maria-rootpassword
-	Non-root unix sudo user: 		non-rootunixuser
-	Non-root unix password: 		non-rootunixpassword
+	DB root password: 		maria-rootpassword
+	Non-root unix sudo user: 	non-rootunixuser
+	Non-root unix password: 	non-rootunixpassword
 	Non-root MariaDB user: 		non-rootmariauser
 	Non-root MariaDB password: 	non-rootmariapassword
 	DO API key: 			qwertyuioplkjhgfdsazxcvbnmpoiuytrewq1234567890987654321
 	Droplet ID: 			12345678
-	Key CDN account:			123b.kxcdn.com
+	Key CDN account:		123b.kxcdn.com
 	
 <h5>LOG IN</h5>
 	YourComputer :~ youruser$ ssh root@123.123.123.123
