@@ -166,7 +166,7 @@ non-rootunixuser@yourweb:/var/www/html/$ sudo ghost install
 ? Enter your Ghost database name: ghost_production
  ✔ System Stack
 ? Do you want to set up your blog with SSL (using letsencrypt)? Yes
-? Enter your email (used for ssl registration) info@cloudbasedsite.com
+? Enter your email (used for ssl registration) info@yourweb.com
 ✔ Getting SSL certificate
 ✔ Generating encryption key (hold tight, this may take a while)
 ✔ Finishing setup
