@@ -1,7 +1,7 @@
 Note: as of 3-27-2017 the latest version Ghost-alpha.17 is broken
 # Install Ghost 1.0+ on DigitalOcean 512 MB droplet 
 <blockquote style="font-family: monospace;">
-Build a clonable Ghost server platform on a DigitalOcean 512 MB droplet with Ubuntu, MariaDB, Nginx, all the apps needed to run Ghost, unattended server upgrades, and daily automatic snapshots. Make a snapshot to clone present and future Ghost sites. Then install SSL encrypted Ghost and connect it to KeyCDN, MailChimp, Disqus, Google Analytics, and Google Custom Search. The whole process takes about a half-hour from zero to speedy, secure Ghost blog that backs itself up and keeps the server up to date.
+Build a clonable Ghost server platform on a DigitalOcean 512 MB droplet with Ubuntu, MariaDB, Nginx, all the apps needed to run Ghost, unattended server upgrades, and daily automatic snapshots. Make a snapshot to clone present and future Ghost sites. Then install SSL encrypted Ghost and connect it to KeyCDN, MailChimp, Disqus, Google Analytics, and Google Custom Search. The whole process takes about a half-hour from zero to speedy, secure Ghost blog.
 </blockquote>
 <pre>
 <h2>1. Spin up a DigitalOcean 512 MB droplet</h2>
