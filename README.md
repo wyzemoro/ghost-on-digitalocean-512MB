@@ -1,13 +1,6 @@
 # ghost-on-digitalocean-512MB
 After hours of pouring through dozens of tutorials learning how to install Ghost and the recommended packages &amp; software, I gathered together all of the command lines into this tutorial so the next time this process will be a LOT easier. 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Ghost</title>
-	<style>h2,h3,h4,h5{margin:1em 0 0;padding:0;}</style>
-</head>
-<body style="padding:2em 6em;  word-wrap: break-word;">
+
 # Install Ghost 1.0+ on DigitalOcean 512 MB droplet 
 <blockquote style="font-family: monospace;">
 Build a clonable Ghost server platform on a DigitalOcean 512 MB droplet with Ubuntu, MariaDB, Nginx, all the apps needed to run Ghost, unattended server upgrades, and daily automatic snapshots. Make a snapshot to clone present and future Ghost sites. Then install SSL encrypted Ghost and connect it to KeyCDN, MailChimp, Disqus, Google Analytics, and Google Custom Search. The whole process takes about a half-hour from zero to speedy, secure Ghost blog that backs itself up and keeps the server up to date.
