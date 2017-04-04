@@ -179,6 +179,7 @@ Change the www cname DNS record to point to the keyCDN zone URL (e.g. yourweb-12
 Set up keyCDN zone and make a zonealias pointed to www.yourweb.com
 Login to <a href="https://yourweb.com/ghost">https://yourweb.com/ghost</a> and add base href to the header code injection:
 &lt;base href="https://www.yourweb.com/"&gt;
+`<script>if (window.location.hostname.indexOf("www") != 0) { window.location = window.location.protocol + "//www." + window.location.hostname + window.location.pathname; }</script>`
 <h3>OTHER SERVICES ~ Child Theme</h3>
 Upload CasperChild. Edit index.hbs and post.hbs to connect your MailChimp, Disqus, and Google Custom Search services. 
 Place Google analytics code in the footer code injection field. 
