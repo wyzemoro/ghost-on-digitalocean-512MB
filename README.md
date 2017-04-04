@@ -151,7 +151,7 @@ non-rootunixuser@yourweb:~$  sudo rm -rf /var/www/html/index.nginx-debian.html
 non-rootunixuser@yourweb:~$ cd /var/www/html/
 non-rootunixuser@yourweb:/var/www/html/$ sudo npm i -g ghost-cli@latest
 non-rootunixuser@yourweb:~$ sudo apt-get update
-non-rootunixuser@yourweb:/var/www/html/$ sudo ghost install
+non-rootunixuser@yourweb:/var/www/html/$ ghost install
  ✔ Checking for latest Ghost version
  ✔ Running system checks
  ✔ Setting up install directory
@@ -192,7 +192,7 @@ non-rootunixuser@yourweb:/var/www/html/$ sudo ghost restart
 non-rootunixuser@yourweb:~$ cd /var/www/html/
 non-rootunixuser@yourweb:/var/www/html/$ sudo npm i -g ghost-cli@latest
 non-rootunixuser@yourweb:/var/www/html/$ sudo apt-get update
-non-rootunixuser@yourweb:/var/www/html/$ sudo ghost update
+non-rootunixuser@yourweb:/var/www/html/$ ghost update
 </pre>
 </body>
 </html>
