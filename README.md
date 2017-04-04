@@ -155,7 +155,7 @@ non-rootunixuser@yourweb:/var/www/html/$ sudo ghost install
  ✔ Checking for latest Ghost version
  ✔ Running system checks
  ✔ Setting up install directory
- ✔ Downloading and installing Ghost v1.0.0-alpha.17
+ ✔ Downloading and installing Ghost v1.0.0-alpha.18
  ✔ Moving files
 ? Enter your blog URL: https://yourweb.com
 ? Enter your MySQL hostname: localhost
