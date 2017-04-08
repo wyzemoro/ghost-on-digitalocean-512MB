@@ -174,6 +174,9 @@ non-rootunixuser@yourweb:/var/www/html/$ ghost install
 non-rootunixuser@yourweb:~$ sudo nano  /etc/nginx/sites-available/yourweb.com.conf
 	add line in 443 server block: client_max_body_size 4M;
 non-rootunixuser@yourweb:~$ sudo service nginx restart
+<h5>RUN GHOST AT STARTUP</h5>
+non-rootunixuser@yourweb:~$ sudo nano  /etc/rc.local
+	add line -->	cd /var/www/html/ && sudo ghost restart
 <h3>ENABLE KeyCDN</h3>
 Change the www cname DNS record to point to the keyCDN zone URL (e.g. yourweb-123b.kxcdn.com. )
 Set up keyCDN zone and make a zonealias pointed to www.yourweb.com
